@@ -1,0 +1,14 @@
+{
+  "name": "trending-leaderboard-scaffold",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Trending posts leaderboard using Redis sorted sets, hashes, and pipelines.",
+  "scripts": {
+    "seed": "node seed.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1"
+  }
+}
